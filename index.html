@@ -538,6 +538,47 @@ guidelines. Fastidious in tracking all expenses and reconciling accounts." />
                 <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
+		      <style type="text/css">
+			      .tableEmulator {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    /** section - comment for ul to be columns**/
+    -webkit-flex-direction:column;
+    flex-direction: column;
+    /** end section **/
+    border: 1px solid;
+    border-color: blue;
+    min-width: 172px;
+    
+}
+ul.trEmulator {
+    display: -webkit-flex;
+    display:flex;
+   -webkit-flex-direction:column
+    clear:both;
+    border: 0px solid;
+    border-color: red;
+    width:auto;  
+}
+.trEmulator li {
+    list-style:none;
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid #eee; 
+}
+
+
+			      </style>
+		      <div class="tableEmulator">
+    <ul class="trEmulator">
+        <li class="tdEmulator">Some text</li>
+        <li class="tdEmulator">Some text</li>
+    </ul>
+    <ul class="trEmulator">
+        <li class="tdEmulator">Some text</li>
+        <li class="tdEmulator">Some text</li>
+    </ul> 
+</div>
                 <ul>
                   <li><b>Tools:</b><p></li>
 		  <li>Flask </li>
